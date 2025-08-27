@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Archivo de Casos</title>
+  <link rel="icon" type="image/png" href="images/Logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background: url('fondo-tetrico.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    footer {
+      background-color: rgba(0,0,0,0.85);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+  <link href="css/propio.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg_negrisimo">
+
+  <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/Logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="desaparecidos.html">Desaparecidos</a></li>
+        <li class="nav-item"><a class="nav-link" href="casossin.html">Se Busca</a></li>
+        <li class="nav-item"><a class="nav-link" href="Misterios.html">Misterios</a></li>
+      </ul>
+    </div>
+</nav>
+
+<!-- Carrusel de personas desaparecidas -->
+<div id="desaparecidosCarousel" class="carousel slide" data-ride="carousel">
+  
+  <!-- Indicadores -->
+  <ol class="carousel-indicators">
+    <li data-target="#desaparecidosCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#desaparecidosCarousel" data-slide-to="1"></li>
+    <li data-target="#desaparecidosCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="images/hombre miedo.jpg" class="d-block w-100" alt="Persona desaparecida 1">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <h5>Rodrigo Salazar</h5>
+        <p>Última vez visto en Bogotá - Noviembre 2024</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/Firefly_Persona desaparecida con rostro censurado, expresión con miedo 282777.jpg" class="d-block w-100" alt="Persona desaparecida 2">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <h5>Sofía Moreno</h5>
+        <p>Última vez visto en Medellín - Diciembre 2024</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/Firefly_Persona desaparecida con rostro censurado 282777.jpg" class="d-block w-100" alt="Persona desaparecida 3">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <h5>Andrea Pérez</h5>
+        <p>Última vez vista en Cali - Enero 2025</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controles -->
+  <a class="carousel-control-prev" href="#desaparecidosCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+
+  <a class="carousel-control-next" href="#desaparecidosCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+
+  <!-- MINIATURAS EN GRID -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4 bg_textorojo">Casos Reportados</h2>
+    <div class="row">
+<p class="text-center">Las personas que ves aquí no son noticia de portada ni reciben la atención que deberían. Mientras el amarillismo se queda con otras historias y el Estado decide ignorar estos casos, esta página existe para que <strong>no se olviden</strong>. Aquí no escondemos, aquí se hace visible lo que muchos prefieren callar.</p>
+    </div>
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_-Generate a simple faceless human silhouette, solid black, no details, white backgrou 844672.jpg" alt="Caso 1" width="2048" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Laura Martínez Gómez</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Bogotá  Enero 2024</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_cara de persona joven contenta primer plano 199991.jpg" class="card-img-top" alt="Caso 2">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Camila Rodríguez Pineda</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Medellín  Febrero 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_-Generate a simple faceless human silhouette, solid black, no details, white backgrou 940031.jpg" class="card-img-top" alt="Caso 3">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Dylan Cruz</h6>
+            <p class="card-text bg_textonegrosub">Última vez visto en Bogotá&nbsp; Noviembre 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_cara de persona joven contenta primer plano persona ordinaria piel oscura 199991.jpg" class="card-img-top" alt="Caso 4">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Mariana López Castillo</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Cali&nbsp; &nbsp;  Marzo2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+	
+ <section class="container my-5">
+  
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="images/woman.jpg" alt="Caso 1" width="1080" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Valentina Herrera Díaz</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Caldas&nbsp; Mayo 2024</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_-Generate a simple faceless human silhouette, solid black, no details, white backgrou 940031.jpg" class="card-img-top" alt="Caso 2">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Felipe Ramírez Torres</h6>
+            <p class="card-text bg_textonegrosub">Última vez visto en Cali&nbsp; &nbsp; Junio 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_Niño de 15 años tomandose una selfie en un fondo urbano  224717.jpg" class="card-img-top" alt="Caso 3">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Julián Castro Rojas</h6>
+            <p class="card-text bg_textonegrosub">Última vez visto en Medellín  Octubre 2024</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_-Generate a simple faceless human silhouette, solid black, no details, white backgrou 844672.jpg" class="card-img-top" alt="Caso 4">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Daniela Torres Ramírez</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Cartagena  Julio 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+	 <section class="container my-5">
+    
+    <div class="row row-cols-2 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="images/Diseño sin título (4).jpg" alt="Caso 1" width="1080" class="card-img-top">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Natalia Jiménez Suárez</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Medellín&nbsp; Septiembre 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_-Generate a simple faceless human silhouette, solid black, no details, white backgrou 940031.jpg" class="card-img-top" alt="Caso 2">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Esteban Vargas León</h6>
+            <p class="card-text bg_textonegrosub">Última vez visto en Ibagué&nbsp; Agosto 2023</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/doc.jpg" class="card-img-top" alt="Caso 3">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Santiago Pérez Duarte</h6>
+            <p class="card-text bg_textonegrosub">Última vez visto en Casanare&nbsp; Diciembre 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/Firefly_cara de persona joven contenta primer plano persona ordinaria piel oscura 199991.jpg" class="card-img-top" alt="Caso 4">
+          <div class="card-body">
+            <h6 class="card-title bg_textonegro">Isabella Morales Cárdenas</h6>
+            <p class="card-text bg_textonegrosub">Última vez vista en Cúcuta Noviembre 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+	
+
+  <!-- FORM-CONTROL / RECOLECCIÓN DE DATOS -->
+  <div class="container mt-5">
+    <h5 class="text-center">&nbsp;</h5>
+    <h5 class="text-center">&nbsp;</h5>
+    <h5 class="text-center">¿Tienes información?</h5>
+<form>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Tu nombre">
+    </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="3" placeholder="Información que quieras aportar"></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger btn-block">Enviar Información</button>
+    </form>
+</div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Samael - Todos los derechos reservados</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+  .carousel-item img {
+    height: 500px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Recorta sin deformar */
+    width: 100%; /* Asegura que todas ocupen el mismo ancho */
+  }
+</style>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Archivo de Casos</title>
+  <link rel="icon" type="image/png" href="images/Logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background: url('fondo-tetrico.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    footer {
+      background-color: rgba(0,0,0,0.85);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+  <link href="css/propio.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg_negrisimo">
+
+  <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/Logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="desaparecidos.html">Desaparecidos</a></li>
+        <li class="nav-item"><a class="nav-link" href="casossin.html">Se Busca</a></li>
+        <li class="nav-item"><a class="nav-link" href="Misterios.html">Misterios</a></li>
+      </ul>
+    </div>
+</nav>
+
+  <!-- CONTENIDO CENTRAL -->
+  <div class="container text-center my-5">
+    
+    <!-- Título y subtítulo -->
+    <div class="mb-3">
+      <h1 class="display-5 fw-bold bg_blancotitulos bg_textorojo">SAMAEL</h1>
+      <p class="lead text-muted">
+        <strong class="bg_blancotextosub">Busca información sobre desaparecidos, personas buscadas y misterios sin resolver.</strong>
+      </p>
+    </div>
+
+    <!-- Barra de búsqueda -->
+    <form class="w-100 d-flex justify-content-center mb-5">
+      <div role="status"> <span class="sr-only">oading...</span> </div>
+	
+      <div class="spinner-grow bg_titilabuscar" role="status"> <span class="sr-only">Loading...</span> </div>
+   	  <input type="text" class="form-control bg_Buscador" placeholder=" Buscador">
+    </form>
+	
+    <!-- Botones con imágenes -->
+    <div class="row">
+      <!-- Botón 1 -->
+      <div class="col-md-4 mb-4">
+        <a href="desaparecidos.html">
+        <button class="btn btn-primary w-100 mb-2 bg_botones1 bg_blancotextosub">Desaparecidos</button>
+        </a>        <img src="images/Firefly_Persona desaparecida con rostro censurado, expresión con miedo 536516.jpg" alt="Desaparecidos" width="492" height="500" class="shadow img-fluid rounded">
+      </div>
+
+      <!-- Botón 2 -->
+      <div class="col-md-4 mb-4">
+        <a href="casossin.html">
+        <button class="btn btn-danger w-100 mb-2 bg_botones1 bg_blancotextosub">Buscados</button>
+        </a>        <img src="images/s-l1200.jpg" alt="Buscados" width="799" height="998" class="img-fluid shadow rounded">
+      </div>
+
+      <!-- Botón 3 -->
+      <div class="col-md-4 mb-4">
+        <a href="Misterios.html">
+        <button class="btn btn-warning w-100 mb-2 bg_botones1 bg_blancotextosub">Misterios</button>
+        </a>        <img src="images/Firefly_Fantasma escenario escuro asomandose en la puerta, miedo, horror, fantasma  961123.jpg" alt="Casos sin resolver" class="img-fluid shadow">
+      </div>
+    </div>
+  </div>
+
+  <!-- FORM-CONTROL / RECOLECCIÓN DE DATOS -->
+  <div class="container mt-5">
+    <h5 class="text-center">&nbsp;</h5>
+    <h5 class="text-center">&nbsp;</h5>
+    <h5 class="text-center">¿Tienes información?</h5>
+<form>
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Tu nombre">
+    </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="3" placeholder="Información que quieras aportar"></textarea>
+      </div>
+      <button type="submit" class="btn btn-danger btn-block">Enviar Información</button>
+    </form>
+</div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Samael - Todos los derechos reservados</p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

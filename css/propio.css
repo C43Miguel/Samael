@@ -1,0 +1,106 @@
+.br_blancotextocorr {
+	color: #FFFFFF;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.bg_blancotextosub {
+	color: #FFFFFF;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bolder;
+	background-position: 0% 0%;
+	-webkit-box-shadow: 0px 0px #FF0004;
+	box-shadow: 0px 0px #FF0004;
+}
+.bg_blanco {
+	background-color: #FFFFFF;
+}
+.bg_negrisimo {
+	background-color: rgba(0,0,0,1.00);
+	background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.96) 0%,rgba(0,0,0,0.92) 100%), url(../images/Firefly_Fondo%20estilo%20dark%20fr%C3%ADo%20y%20escalofriante%20con%20neblina%20y%20desolaci%C3%B3n,%20fondo%20negro,%20contras%20961123.jpg);
+	background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.96) 0%,rgba(0,0,0,0.92) 100%), url(../images/Firefly_Fondo%20estilo%20dark%20fr%C3%ADo%20y%20escalofriante%20con%20neblina%20y%20desolaci%C3%B3n,%20fondo%20negro,%20contras%20961123.jpg);
+	background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.96) 0%,rgba(0,0,0,0.92) 100%), url(../images/Firefly_Fondo%20estilo%20dark%20fr%C3%ADo%20y%20escalofriante%20con%20neblina%20y%20desolaci%C3%B3n,%20fondo%20negro,%20contras%20961123.jpg);
+	background-image: linear-gradient(180deg,rgba(0,0,0,0.96) 0%,rgba(0,0,0,0.92) 100%), url(../images/Firefly_Fondo%20estilo%20dark%20fr%C3%ADo%20y%20escalofriante%20con%20neblina%20y%20desolaci%C3%B3n,%20fondo%20negro,%20contras%20961123.jpg);
+	-webkit-box-shadow: 0px 0px rgba(0,0,0,1.00);
+	box-shadow: 0px 0px rgba(0,0,0,1.00);
+}
+.bg_textonegro {
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+}
+.bg_textonegrosub {
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: normal;
+}
+
+
+.bg_blancotitulos {
+	color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: bold;
+}
+.bg_negrisimo .container.buscador-container .form-control.buscador {
+}
+.bg_Buscador {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border: medium inset rgba(255,255,255,1.00);
+	position: static;
+	margin-right: 81px;
+	margin-bottom: 46px;
+	float: none;
+	clear: none;
+	margin-left: 16px;
+	margin-top: 48px;
+}
+.bg_LOGO {
+	background-image: url(../images/Logo.png);
+}
+.bg_botones1 {
+	background-color: rgba(0,0,0,1.00);
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.67) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.67) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.67) 0%,rgba(0,0,0,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.67) 0%,rgba(0,0,0,1.00) 100%);
+	border: thick none rgba(255,255,255,1.00);
+}
+.bg_imagencarrusel {
+	border-left: thick double rgba(0,0,0,1.00);
+	border-right: thick double rgba(0,0,0,1.00);
+	border-bottom: thick double rgba(255,255,255,1.00);
+	border-top: thick double rgba(0,0,0,1.00);
+	border-radius: 26px;
+	border-spacing: 100px 100px;
+	border-collapse: collapse;
+	background-color: rgba(0,0,0,1.00);
+
+
+}
+.bg_titilabuscar {
+	padding-bottom: 37px;
+	padding-top: 6px;
+	margin-top: 47px;
+}
+.bg_tituloblanco {
+	color: #FFFFFF;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	text-align: center;
+	text-shadow: 0px 0 0px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 0px;
+	background-color: #8F1924;
+	background-position: 13% 0%;
+	background-repeat: repeat-x;
+	-webkit-box-shadow: 7px 7px #FFFFFF;
+	box-shadow: 7px 7px #FFFFFF;
+}
+.bg_textorojo {
+	color: #C8180D;
+	font-weight: bold;
+}
+._textorojo {
+}
